@@ -36,6 +36,6 @@ app.use('/de', defaultEvents);
 // });
 
 /* Testing socketio basic features */
-io.on('connection', function(socket) {
-    io.emit('def_ns_testing_ch', 'This is a test message emitted to everyone.');
+var nmsp1 = io.of('/nmsp1').on('connection', function(socket) {
+    nmsp1.emit('def_ns_testing_ch', 'This is a test message emitted to everyone.');
 });

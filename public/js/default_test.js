@@ -1,5 +1,5 @@
 
-var socket = io('http://localhost:3020');
+var socket = io('http://localhost:3020/nmsp1');
 var logger = Logger();
 
 socket.on('connect', function() {
