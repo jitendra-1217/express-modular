@@ -1,0 +1,16 @@
+{
+  "name": "express_modular",
+  "version": "1.0.0",
+  "description": "A modular application structure with expressjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jitendra K Ojha",
+  "license": "ISC",
+  "repository": {},
+  "dependencies": {
+    "express": "4.*",
+    "nodemon": "1.4.1"
+  }
+}
