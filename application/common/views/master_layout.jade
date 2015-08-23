@@ -1,0 +1,12 @@
+html
+    head
+        title #{title} | Express,SocketIO
+
+        block header
+            script(src='/bower_components/jquery/dist/jquery.min.js')
+            //- script(src='/bower_components/socket.io/lib/client.js')
+            script(src='/socket.io/socket.io.js')
+            script(src='/js/generic_logger.js')
+            link(rel='stylesheet', href='/css/common.css')
+    body
+        block container

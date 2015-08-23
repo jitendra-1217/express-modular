@@ -1,0 +1,16 @@
+{
+  "name": "express_modular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jitendra-1217/express_modular",
+  "authors": [
+    "Jitendra K <jitendraojha@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
