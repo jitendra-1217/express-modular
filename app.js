@@ -1,6 +1,10 @@
 
 var express = require('express');
 
+//  Includign mongodb library
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/dbworkplz');
+
 var app = express();
 
 /* App configuration */
